@@ -1,0 +1,268 @@
+body{
+	background-color: gainsboro;
+}
+.badan-utama{
+	max-width:1080px;
+	margin:20px auto;
+	background-color: white;
+	overflow:hidden;
+}
+.media-sosial{
+	text-align:right;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.media-sosial img {
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	padding:2px;
+}
+.media-sosial a{
+	text-decoration:none;
+}
+.navigasi hr{
+	border-top:1px dashed red;
+	margin-left:5px;
+}
+.navigasi ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#880304;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+.navigasi li{
+	float:left;
+}
+.navigasi a{
+	display:block;
+	color:white;
+	padding:10px;
+	padding-left:15px;
+	text-align:center;
+	text-decoration:none;
+}
+.navigasi li a:hover{
+	background-color: #068c45;
+	transition-duration:2s;
+}
+.header-atas{
+	background-color: green;
+	color:white;
+	padding:15px;
+}
+.header-kiri{
+	width:520px;
+	float:left;
+	background-color:#8b0304;
+	padding-left :15px;
+	padding-right :5px;
+	padding-top :5px;
+}
+.header-kiri video{
+	width:100%;
+	height:340px;
+	
+}
+.header-kiri img{
+	width:100%;
+	height:318px;
+	padding-top:22px;
+}
+.header-kanan {
+	width:240px;
+	float:left;
+	padding-top:15px;
+	padding-right:15px;
+	padding-bottom:1px;
+	background-color:#8b0304;
+	padding-left:15px;
+	text-align:center;
+}
+.header-kanan img{
+	width:100%;
+	height:130px;
+}
+.header-kanan a{
+text-decoration:none;
+color:white;
+font-size:15px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.judul{
+	background-color:blue;
+	border-bottom:3px solid blue;
+	color:white;
+	padding-left:5px;
+	padding-right:3px;
+	border-top-left-radius:10px;
+}
+.judul1{
+	background-color:orange;
+	border-bottom:3px solid orange;
+	color:white;
+	padding-left:5px;
+	padding-right:3px;
+	border-top-left-radius:10px;
+}
+.kotak{
+	border-top:3px solid blue;
+	margin-bottom:5px;
+}
+.kotak1{
+	border-top:3px solid orange;
+	margin-bottom:5px;
+	
+	
+}
+.kotak1 img{
+	width:100%;
+	
+}
+.kotak1 a{
+text-decoration:none;
+color:blue;
+font-family:Arial, Helvetica, sans-serif;
+}
+.menu-tengah{
+	width:780px;
+	margin-right:10px;
+	float:left;
+	padding-top:15px;
+	padding-left:10px;
+	color:blue;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.menu-tengah font{
+	text-align:center;
+	color:blue;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.menu-tengah p{
+	text-align:justify;
+	color:black;
+}
+.menu-tengah .artikel{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	color:black;
+}
+.menu-tengah table{
+	width:100%;
+}
+.menu-tengah table td{
+	width:50%;
+}
+.menu-tengah img{
+	width:100%;
+}
+.tanggal-posting{
+	color:red;
+	margin-bottom:10px;
+	font-size:15px;
+	text-align:right;
+	margin-top:5px;
+	display:block;
+}
+.menu-tengah a{
+	text-decoration:none;
+	color:blue;
+}
+.menu-kanan{
+	width:250px;
+	float:left;
+	padding-top:15px;
+}
+.menu-kanan video,audio{
+	width:100%;
+	
+}
+footer{
+	float:left;
+	color:white;
+	background-color:#880304;
+	padding:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	text-align:justify;
+	
+}
+.footer-kiri {
+	width: 500px;
+	float: left;
+	padding-right: 15px;
+}
+.footer-tengah {
+	width: 300px;
+	float: left;
+	padding-right: 15px;
+}
+.footer-kanan {
+	text-align: center;
+	width: 200px;
+	float: left;
+}
+.footer-kanan {
+	text-align: center;
+}
+.footer-kanan img{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	padding:2px;
+}
+/*Untuk Tablet*/
+@media screen and (max-width:1080){
+	.badan-utama{
+		width:100%;
+		
+	}
+	.header-kiri,
+	.menu-tengah,
+	.menu-kiri,
+	.menu-kanan,
+	.footer-kiri,
+	.footer-kanan{
+		width:100%;
+		float:left;
+		margin:0;
+		padding:0;
+	}
+	.header-kanan{
+		width:50%;
+		float:left;
+		margin:0;
+		padding:0;
+	}
+}
+/*Untuk Smartphone*/
+@media screen and (max-width:780px){
+	.badan-utama{
+	width:100%;
+		
+	}
+	.header-kiri,
+	.menu-tengah,
+	.menu-kiri,
+	.menu-kanan,
+	.footer-kiri,
+	.footer-kanan{
+		width:100%;
+		float:left;
+		margin:0;
+		padding:0;
+	}
+	.header-kanan{
+		width:50%;
+		float:left;
+		margin:0;
+		padding:0;
+	}
+}
